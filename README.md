@@ -39,12 +39,12 @@ The model was trained for 100 epochs with the Adam optimizer and Mean Squared Er
 ## Evaluation and Results 📈
 The model's predictions were compared against the actual test data, and the following steps were taken:
 - **Visualization**: Plotted both predicted and actual prices to evaluate performance.
-- **Metrics**: Computed Mean Absolute Error (MAE) to assess accuracy.
+- **Metrics**: Computed Mean Absolute Error (MAE) to assess accuracy. Mean absolute error on test set: 12.88%. R2 score: 0.9794975100925372.
 - **Tomorrow's Price Prediction**: Predicted whether the stock price would rise or fall based on the last known data point.
 
 ### Example Results
 - **Actual vs. Predicted**:
-  ![Stock Price Comparison](link-to-image-if-available)
+  ![image](https://github.com/user-attachments/assets/475dc736-821f-4ebf-ac61-988ce962ee75)
 - **Tomorrow's Price Prediction**:
   The model predicted whether the next day’s price would be higher or lower, with a small margin of error observed.
 
